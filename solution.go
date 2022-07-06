@@ -15,11 +15,11 @@ import (
 
 type myInt int
 
-func main() {
-	const SidesTriangle = 3
-	const SidesSquare = 4
-	const SidesCircle = 0
+const SidesTriangle = 3
+const SidesSquare = 4
+const SidesCircle = 0
 
+func main() {
 	fmt.Println(CalcSquare(10.0, SidesTriangle))
 	fmt.Println(CalcSquare(10.0, SidesSquare))
 	fmt.Println(CalcSquare(10.0, SidesCircle))
