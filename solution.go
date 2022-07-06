@@ -16,9 +16,9 @@ import (
 type myInt int
 
 func main() {
-	var SidesTriangle myInt = 3
-	var SidesSquare myInt = 4
-	var SidesCircle myInt = 0
+	const SidesTriangle myInt = 3
+	const SidesSquare myInt = 4
+	const SidesCircle myInt = 0
 
 	fmt.Println(CalcSquare(10.0, SidesTriangle))
 	fmt.Println(CalcSquare(10.0, SidesSquare))
